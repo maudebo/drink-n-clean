@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'value-black';
+  src: url('../fonts/value-black.eot');
+  src: url('../fonts/value-black.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/value-black.woff') format('woff'),
+  url('../fonts/value-black.woff2') format('woff2'),
+  url('../fonts/value-black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*
+@font-face {
+    font-family: 'value-bold';
+    src: url('./src/fonts/value-bold.eot');
+    src: url('./src/fonts/value-bold.eot?#iefix') format('embedded-opentype'),
+         url('./src/fonts/value-bold.woff') format('woff'),
+         url('./src/fonts/value-bold.woff2') format('woff2'),
+         url('./src/fonts/value-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+
+@font-face {
+  font-family: 'value-medium';
+  src: url('../fonts/value-medium.eot');
+  src: url('../fonts/value-medium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/value-medium.woff') format('woff'),
+  url('../fonts/value-medium.woff2') format('woff2'),
+  url('../fonts/value-medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*
+@font-face {
+    font-family: 'value-regular';
+    src: url('./src/fonts/value-regular.eot');
+    src: url('./src/fonts/value-regular.eot?#iefix') format('embedded-opentype'),
+         url('./src/fonts/value-regular.woff') format('woff'),
+         url('./src/fonts/value-regular.woff2') format('woff2'),
+         url('./src/fonts/value-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+$backgroundColor : #fff;
+$textColor : #000;
+$fontRegular : 'value-medium';
+$fontBold : 'value-black';
+.app {
+  text-align: center;
+}
+
+.logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.header {
+  background-color: $backgroundColor;
+  height: 150px;
+  padding: 20px;
+  color: white;
+  display: flex;
+}
+
+.title {
+  font-size: 5.5em;
+  font-family: $fontBold;
+  color: $textColor;
+  text-transform: uppercase;
+}
+mark {
+  background-image: linear-gradient(100deg, black, #005493, black);
+  background-clip: text;
+  -webkit-background-clip: text;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  color: transparent;
+}
+.mrNet{
+  background-image: url("../img/mrclean.png");
+  background-size: 700px;
+  height: 756px;
+  background-repeat: no-repeat;
+  background-position: 51% 80%;
+  margin-top: -85px;
+}
+.intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  //from { transform: rotate(0deg); }
+  //to { transform: rotate(360deg); }
+}

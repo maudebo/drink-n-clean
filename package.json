@@ -1,0 +1,23 @@
+{
+  "name": "default",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "henri server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@usehenri/disk": "^0.20.2",
+    "@usehenri/mysql": "^0.20.2",
+    "@usehenri/sequelize": "^0.20.2",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "next": "^4.2.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router": "^4.2.0"
+  }
+}
